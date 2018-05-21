@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	
@@ -9,20 +10,20 @@
 
 </head>
 
-	<body>
+	<body background="https://inspirationhut.net/wp-content/uploads/2013/05/201.png">
 
-	<div id="container">
-	<ul id="nav">
-		<li> <a href="index.html">Home</a> 
-		 	<a href="about.html">About</a> 
-			 <a href="portfolio.html">Portfolio</a> 
-			 <a href="contact.html">Contact</a> </li>
+<nav>
+  <ul>
 
-	</ul>
+    <li> <a href="#">Home</a> </li>
+    <li> <a href="#">About</a> </li>
+    <li> <a href="#">Portfolio</a> </li>
+    <li> <a href="#">Contact</a> </li>
+  </ul>
+</nav>
 
 	<div id="header">
-		<h1> Nick Manser </h1>
-		<h2> London based Videographer</h2>
+		
 
 </div>
 
@@ -30,31 +31,56 @@
 
 
 
-<div class="polaroid">
-  <img src="https://i.vimeocdn.com/video/677703602_780x439.jpg" alt="Norway" style="width:100%">
+<div class="column-one">
+  <a href="https://vimeo.com/253024720">
+    <img src="https://i.vimeocdn.com/video/677703602_780x439.jpg" alt="Norway" style="width:100%"/>
+  </a>
   <div class="container">
-    <p>Aggression Session</p>
+    <p>AGRESSION SESSION</p>
   </div>
 </div>
-
-<div class="polaroid">
-  <img src="https://d3jjg4nf4bbybe.cloudfront.net/u/53538/6445a8bfa2aacde452dc57e087719db86e49414a/large/forum-logo-web-new.png" alt="Norway" style="width:100%">
+<div class="column-two column">
+  <a href="#">
+    <img src="https://media.cylex-international.com/gb/1287-2016-logo.jpg" alt="Norway" style="width:100%">
+  </a>
   <div class="container">
-    <p>The Forum, Tunbridge Wells</p>
+    <p>THE FORUM</p>
   </div>
 </div>
 
 </body>
 
+
+
+
 <style>
 
-body {margin:25px;}
+body {margin:50px;}
 
-div.polaroid {
+body-background {background-repeat: no-repeat;
+    background-size: auto;
+}
+
+div.column-one {
+	filter: grayscale(100%);
   width: 30%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 15px; text-align: center;
+  border-radius: 5px;
+
+  
+}
+
+div.column-two {
+	filter: grayscale(100%);
+  width: 30%;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px; text-align: center;
+  border-radius: 5px;
+
+
 }
 
 div.container {
@@ -62,16 +88,56 @@ div.container {
   padding: 10px 20px;
 }
 
-ul {text-align: center;}
+
+
+* {margin: 0; padding: 0;}
+
+nav {
+  margin: 50px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #666;
+}
+
+
+
+
+
 
 div {text-align: center;}
 
-li {color: grey; text-align: center; font-family: Courier New; font-size: 24px}
+li {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 20px}
 
-p {color: grey; text-align: center; font-family: Courier New; font-size: 24px}
+p {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 20px}
 
-h1 {color: grey; text-align: center; font-family: Courier New; font-size: 48px}
-h2 {color: grey; text-align: center; font-family: Courier New; font-size: 36px}
+h1 {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 25px/1}
+
 
 
 </style>
