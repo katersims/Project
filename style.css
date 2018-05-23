@@ -1,0 +1,93 @@
+
+body {margin:50px;}
+
+body-background {background-repeat: no-repeat;
+    background-size: auto;
+}
+
+div.column-one {
+	filter: grayscale(100%);
+  width: 30%;
+  height: 200px;
+
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px; text-align: center;
+  border-radius: 5px;
+  float: left;
+  padding-bottom: 10px;
+
+ 
+}
+
+div.column-two {
+	filter: grayscale(100%);
+  width: 30%;
+  height: 200px;
+
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px; text-align: center;
+  border-radius: 5px;
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.logo {
+ float: center;
+}
+
+
+* {margin: 0; padding: 0;}
+
+nav {
+  margin: 20px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+  text-align: left;
+}
+
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #666;
+}
+
+
+
+
+
+
+div {text-align: center;}
+
+li {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 20px}
+
+p {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 20px}
+
+h1 {color: #666; text-align: center; font-family: Helvetica, Verdana; font-size: 25px/1}
