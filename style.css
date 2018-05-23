@@ -20,10 +20,11 @@ div.column-one {
  
 }
 
-div.column-two {
+div.column-three {
 	filter: grayscale(100%);
   width: 30%;
   height: 200px;
+
 
   background-color: lightgrey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -41,7 +42,7 @@ div.container {
   padding: 10px 20px;
 }
 
-div.logo {
+div.coloumn.two {
  float: center;
 }
 
